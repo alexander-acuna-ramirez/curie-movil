@@ -43,21 +43,21 @@ class _ExplorePageState extends State<ExplorePage> {
 
           //header
           CustomHeading(
-            title: 'Explore',
-            subTitle: 'Seek for your preference',
+            title: 'Explorar',
+            subTitle: '¡Pon en práctica tus conocimientos!',
             color: secondary,
           ),
           SizedBox(height: spacer),
 
           //search
           CustomSearchField(
-            hintField: 'Try "Web Design"',
+            hintField: 'Buscar',
             backgroundColor: textWhite,
           ),
           SizedBox(height: spacer),
 
           //title
-          CustomTitle(title: 'Top Searches', extend: false),
+          CustomTitle(title: 'Top de busquedas', extend: false),
           SizedBox(height: smallSpacer),
 
           //suggestion
@@ -98,7 +98,7 @@ class _ExplorePageState extends State<ExplorePage> {
           SizedBox(height: spacer),
 
           //title
-          CustomTitle(title: 'Categories', extend: false),
+          CustomTitle(title: 'Categorias', extend: false),
           SizedBox(height: smallSpacer),
 
           //list categories

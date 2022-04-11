@@ -3,131 +3,61 @@ import 'package:e_learnig_clone/datas/category_list_json.dart';
 const List HomePageCategoryJson = [
   {
     'icon': 'assets/images/code_icon.svg',
-    'title': 'Code',
+    'title': 'Desarrollo Web',
+  },
+  {
+    'icon': 'assets/images/code_icon.svg',
+    'title': 'Desarrollo movil',
   },
   {
     'icon': 'assets/images/brush_icon.svg',
-    'title': 'Design',
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Business',
+    'title': 'Diseño',
   },
 ];
 
 const List CategoryJson = [
   {
     'icon': 'assets/images/code_icon.svg',
-    'title': 'Code',
+    'title': 'Desarrollo Web',
   },
   {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Finance & Accounting',
+    'icon': 'assets/images/code_icon.svg',
+    'title': 'Desarrollo movil',
   },
   {
     'icon': 'assets/images/brush_icon.svg',
-    'title': 'Design',
+    'title': 'Diseño',
   },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Development',
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Business',
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'IT & Software',
-  },
+  
 ];
 
 const List CategoryJson2 = [
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Photography & Video',
+   {
+    'icon': 'assets/images/code_icon.svg',
+    'title': 'Desarrollo Web',
   },
   {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Marketing',
+    'icon': 'assets/images/code_icon.svg',
+    'title': 'Desarrollo movil',
   },
   {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Lifestyle',
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Office Productivity',
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Music',
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Personal Development',
+    'icon': 'assets/images/brush_icon.svg',
+    'title': 'Diseño',
   },
 ];
 
 const List AllCategories = [
-  {
+   {
     'icon': 'assets/images/code_icon.svg',
-    'title': 'Code',
-    'data': Code,
+    'title': 'Desarrollo Web',
   },
   {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Finance & Accounting',
-    'data': Code,
+    'icon': 'assets/images/code_icon.svg',
+    'title': 'Desarrollo movil',
   },
   {
     'icon': 'assets/images/brush_icon.svg',
-    'title': 'Design',
-    'data': Code,
+    'title': 'Diseño',
   },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Development',
-    'data': Code,
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Business',
-    'data': Code,
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'IT & Software',
-    'data': Code,
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Photography & Video',
-    'data': Code,
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Marketing',
-    'data': Code,
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Lifestyle',
-    'data': Code,
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Office Productivity',
-    'data': Code,
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Music',
-    'data': Code,
-  },
-  {
-    'icon': 'assets/images/bag_icon.svg',
-    'title': 'Personal Development',
-    'data': Code,
-  },
+
 ];

@@ -17,7 +17,9 @@ class _LoginAppState extends State<LoginApp> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+      resizeToAvoidBottomInset: true,
       key: _globalKey,
+      backgroundColor:Color.fromRGBO(246, 246, 246, 1),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
@@ -32,8 +34,8 @@ class _LoginAppState extends State<LoginApp> {
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(0),
                 topRight: Radius.circular(0),
-                bottomLeft: Radius.circular(100),
-                bottomRight: Radius.circular(100),
+                bottomLeft: Radius.circular(70),
+                bottomRight: Radius.circular(70),
               ),
 
               image: DecorationImage(
@@ -73,13 +75,21 @@ class _LoginAppState extends State<LoginApp> {
             child: Column(
               children: <Widget>[
                 TextField(
+                  
                   controller: _email,
                   decoration: InputDecoration(
+                      border: InputBorder.none,
+                      filled: true,
+                      fillColor: Colors.white,
+                      prefixIcon: Icon(
+                        Icons.email,
+                        color: Color.fromRGBO(100, 70, 215,1),
+                        ),
                       labelText: "E-MAIL",
                       labelStyle: TextStyle(
-                          fontWeight: FontWeight.bold, color: Colors.grey),
+                          fontWeight: FontWeight.w300, color: Color.fromRGBO(100, 70, 215,1)),
                       focusedBorder: UnderlineInputBorder(
-                          borderSide: BorderSide(color: Colors.blueAccent))),
+                          borderSide: BorderSide(color: Color.fromRGBO(100, 70, 215,1)))),
                 ),
                 SizedBox(
                   height: 30.0,
@@ -88,11 +98,18 @@ class _LoginAppState extends State<LoginApp> {
                   obscureText: true,
                   controller: _password,
                   decoration: InputDecoration(
-                      labelText: "PASSWORD",
+                      border: InputBorder.none,
+                      filled: true,
+                      fillColor: Colors.white,
+                      prefixIcon: Icon(
+                        Icons.key,
+                        color: Color.fromRGBO(100, 70, 215,1),
+                      ),
+                      labelText: "CONTRASEÑA",
                       labelStyle: TextStyle(
-                          fontWeight: FontWeight.bold, color: Colors.grey),
+                          fontWeight: FontWeight.w300, color: Color.fromRGBO(100, 70, 215,1)),
                       focusedBorder: UnderlineInputBorder(
-                          borderSide: BorderSide(color: Colors.blueAccent))),
+                          borderSide: BorderSide(color: Color.fromRGBO(100, 70, 215,1)))),
                 ),
                 SizedBox(
                   height: 10.0,
@@ -125,7 +142,7 @@ class _LoginAppState extends State<LoginApp> {
                         _login(context);
                       },
                       child: Center(
-                        child: Text("Ingresa",
+                        child: Text("INGRESAR",
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -143,7 +160,7 @@ class _LoginAppState extends State<LoginApp> {
                     child: Container(
                         decoration: BoxDecoration(
                             border: Border.all(
-                                color: Colors.black,
+                                color: Color.fromRGBO(100, 70, 215,1),
                                 style: BorderStyle.solid,
                                 width: 1.0),
                             color: Colors.transparent,
@@ -155,14 +172,15 @@ class _LoginAppState extends State<LoginApp> {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
-                              Center(
+                              /*Center(
                                 child: ImageIcon(
                                     AssetImage('assets/images/edit.png')),
-                              ),
+                              ),*/
                               Center(
-                                child: Text('REGISTER',
+                                child: Text('REGÍSTRARSE',
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
+                                      color: Color.fromRGBO(100, 70, 215,1)
                                     )
                                   ),
                               )
