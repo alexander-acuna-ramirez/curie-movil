@@ -21,7 +21,7 @@ class CustomPromotionCard extends StatelessWidget {
             height: size.width * .425,
             padding: const EdgeInsets.all(20.0),
             decoration: BoxDecoration(
-              color: secondary,
+              color: Color.fromRGBO(100, 70, 215,1),
               borderRadius: BorderRadius.circular(10.0),
             ),
             child: Column(
@@ -66,7 +66,7 @@ class CustomPromotionCard extends StatelessWidget {
                     ],
                   ),
                   child: Text(
-                    'Enroll Now',
+                    'Unirse ahora',
                     style: TextStyle(
                       fontSize: 15.0,
                       color: textWhite,

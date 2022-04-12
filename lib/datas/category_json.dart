@@ -3,15 +3,15 @@ import 'package:e_learnig_clone/datas/category_list_json.dart';
 const List HomePageCategoryJson = [
   {
     'icon': 'assets/images/code_icon.svg',
-    'title': 'Desarrollo Web',
+    'title': 'Entrenamiento',
   },
   {
     'icon': 'assets/images/code_icon.svg',
-    'title': 'Desarrollo movil',
+    'title': 'Académicos',
   },
   {
     'icon': 'assets/images/brush_icon.svg',
-    'title': 'Diseño',
+    'title': 'Empresariales',
   },
 ];
 

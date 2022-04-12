@@ -69,10 +69,10 @@ class _CustomCourseCardExpandState extends State<CustomCourseCardExpand> {
                       color: textWhite.withOpacity(0.75),
                       borderRadius: BorderRadius.circular(100.0)),
                   child: Text(
-                    '${widget.videoAmount} Videos',
+                    '${widget.videoAmount} Participantes',
                     style: TextStyle(
                         color: secondary,
-                        fontSize: 14.0,
+                        fontSize: 9.0,
                         fontWeight: FontWeight.w700),
                   ),
                 ),
@@ -131,7 +131,7 @@ class _CustomCourseCardExpandState extends State<CustomCourseCardExpand> {
                   ),
                 ),
                 Text(
-                  '\$${widget.price}',
+                  '${widget.price}',
                   style: TextStyle(
                     color: primary,
                     fontSize: 15.0,
@@ -212,7 +212,7 @@ class _CustomCourseCardShrinkState extends State<CustomCourseCardShrink> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      'Instructor: ' + widget.userName,
+                      'Por: ' + widget.userName,
                       style: TextStyle(
                         fontSize: 12.0,
                         color: grey,

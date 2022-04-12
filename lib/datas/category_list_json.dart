@@ -8,7 +8,7 @@ const Code = {
       'user_profile':
           'https://images.unsplash.com/photo-1601582589907-f92af5ed9db8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80',
       'user_name': 'Jonathan',
-      'price': '30.00',
+      'type': '30.00',
     },
     {
       'image':
@@ -18,7 +18,7 @@ const Code = {
       'user_profile':
           'https://images.unsplash.com/photo-1558507652-2d9626c4e67a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80',
       'user_name': 'Ormid',
-      'price': '22.00',
+      'type': '22.00',
     },
   ],
   'popular_topic': [
@@ -65,7 +65,7 @@ const Code = {
       'user_profile':
           'https://images.unsplash.com/photo-1601582589907-f92af5ed9db8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80',
       'user_name': 'Jonathan',
-      'price': '30.00',
+      'type': '30.00',
     },
     {
       'image':
@@ -75,7 +75,7 @@ const Code = {
       'user_profile':
           'https://images.unsplash.com/photo-1558507652-2d9626c4e67a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80',
       'user_name': 'Ormid',
-      'price': '22.00',
+      'type': '22.00',
     },
     {
       'image':
@@ -85,7 +85,7 @@ const Code = {
       'user_profile':
           'https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80',
       'user_name': 'Faruque',
-      'price': '54.00',
+      'type': '54.00',
     },
     {
       'image':
@@ -95,7 +95,7 @@ const Code = {
       'user_profile':
           'https://images.unsplash.com/photo-1572631382901-cf1a0a6087cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=982&q=80',
       'user_name': 'Wassim',
-      'price': '70.00',
+      'type': '70.00',
     },
     {
       'image':
@@ -105,7 +105,7 @@ const Code = {
       'user_profile':
           'https://images.unsplash.com/photo-1517530094915-500495b15ade?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80',
       'user_name': 'Lucas',
-      'price': '15.00',
+      'type': '15.00',
     },
     {
       'image':
@@ -115,7 +115,7 @@ const Code = {
       'user_profile':
           'https://images.unsplash.com/photo-1531369201-4f7be267b1de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80',
       'user_name': 'Oliver',
-      'price': '25.00',
+      'type': '25.00',
     },
     {
       'image':
@@ -125,7 +125,7 @@ const Code = {
       'user_profile':
           'https://images.unsplash.com/photo-1629747490241-624f07d70e1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1035&q=80',
       'user_name': 'Paul',
-      'price': '65.00',
+      'type': '65.00',
     },
   ],
 };

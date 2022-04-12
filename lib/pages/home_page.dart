@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
                     width: size.width,
                     height: 300.0,
                     decoration: BoxDecoration(
-                      color: secondary,
+                      color: Color.fromRGBO(100, 70, 215,1),
                     )),
               ),
               Padding(
@@ -72,8 +72,8 @@ class _HomePageState extends State<HomePage> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         CustomHeading(
-                          title: 'Hi, ${userName[0]}!',
-                          subTitle: 'Let\'s start learning.',
+                          title: 'Hola, ${userName[0]}!',
+                          subTitle: 'Comencemos a solucionar.',
                           color: textWhite,
                         ),
                         Container(
@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
 
                     //search
                     CustomSearchField(
-                      hintField: 'Try "Web Design"',
+                      hintField: 'Prueba "Reto"',
                       backgroundColor: background,
                     ),
                     SizedBox(height: spacer - 30.0),
@@ -113,9 +113,9 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: const EdgeInsets.only(left: appPadding, right: appPadding),
             child: CustomTitle(
-              title: 'Feature Course',
+              title: 'Ultimos retos',
               arg: {
-                'title': 'Feature Course!',
+                'title': 'Ultimos retos!',
                 'list': CoursesJson,
               },
             ),
@@ -155,7 +155,7 @@ class _HomePageState extends State<HomePage> {
           //categories
           Padding(
             padding: const EdgeInsets.only(left: appPadding, right: appPadding),
-            child: CustomTitle(title: 'Categories'),
+            child: CustomTitle(title: 'Categorias'),
           ),
           SizedBox(height: smallSpacer),
           SingleChildScrollView(
@@ -206,7 +206,7 @@ class _HomePageState extends State<HomePage> {
           //feature category
           Padding(
             padding: const EdgeInsets.only(left: appPadding, right: appPadding),
-            child: CustomTitle(title: 'Design Courses'),
+            child: CustomTitle(title: 'Retos destacados'),
           ),
           SizedBox(height: smallSpacer),
           SingleChildScrollView(

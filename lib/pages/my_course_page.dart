@@ -40,12 +40,12 @@ class _MyCoursesPageState extends State<MyCoursesPage> {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               CustomHeading(
-                title: 'My Courses',
-                subTitle: 'Let\'s continue, shall we?',
+                title: 'Mis Retos',
+                subTitle: 'Continuemos ¿De acuerdo?',
                 color: secondary,
               ),
               Text(
-                MyCoursesJson.length.toString() + ' Courses',
+                MyCoursesJson.length.toString() + ' Retos',
                 style: TextStyle(color: secondary, fontSize: 15.0),
               ),
             ],

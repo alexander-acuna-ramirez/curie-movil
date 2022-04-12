@@ -73,7 +73,7 @@ class _CustomMyCoursesCardState extends State<CustomMyCoursesCard> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            'Intructor: ' + widget.instructor,
+                            'Por: ' + widget.instructor,
                             style: TextStyle(
                               fontSize: 11.0,
                               color: grey,
@@ -114,7 +114,7 @@ class _CustomMyCoursesCardState extends State<CustomMyCoursesCard> {
                       width: widget.percentage * 2.8,
                       height: 7.0,
                       decoration: BoxDecoration(
-                        color: primary,
+                        color: Color.fromRGBO(100, 70, 215,1),
                         borderRadius: BorderRadius.circular(100.0),
                         boxShadow: [
                           BoxShadow(

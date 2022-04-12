@@ -34,8 +34,8 @@ class _LoginAppState extends State<LoginApp> {
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(0),
                 topRight: Radius.circular(0),
-                bottomLeft: Radius.circular(70),
-                bottomRight: Radius.circular(70),
+                bottomLeft: Radius.circular(100),
+                bottomRight: Radius.circular(100),
               ),
 
               image: DecorationImage(
@@ -89,7 +89,10 @@ class _LoginAppState extends State<LoginApp> {
                       labelStyle: TextStyle(
                           fontWeight: FontWeight.w300, color: Color.fromRGBO(100, 70, 215,1)),
                       focusedBorder: UnderlineInputBorder(
-                          borderSide: BorderSide(color: Color.fromRGBO(100, 70, 215,1)))),
+                          borderSide: BorderSide(color: Color.fromRGBO(100, 70, 215,1)
+                        )
+                      )
+                    ),
                 ),
                 SizedBox(
                   height: 30.0,
@@ -205,6 +208,7 @@ class _LoginAppState extends State<LoginApp> {
         "remember": 1
       };
       var res = await CallApi().postData(userData, 'login');
+
       var body = json.decode(res.body);
 
       if (res.statusCode == 200) {

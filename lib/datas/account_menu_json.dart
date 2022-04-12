@@ -1,59 +1,43 @@
 List AccountMenuJson = [
+ 
   {
-    'title': 'Video Preferences',
+    'title': 'Configuración de cuenta',
     'categories': [
       {
-        'title': 'Your downloaded courses',
+        'title': 'Configuración de solicitudes',
         'isSwitch': false,
       },
       {
-        'title': 'Video dowload quality',
+        'title': 'Cambiar contraseña',
         'isSwitch': false,
       },
       {
-        'title': 'Download over Wi-Fi only',
-        'isSwitch': true,
-      },
-    ],
-  },
-  {
-    'title': 'Account Setting',
-    'categories': [
-      {
-        'title': 'Payment Methods',
+        'title': 'Notificaciones',
         'isSwitch': false,
       },
       {
-        'title': 'Change Password',
-        'isSwitch': false,
-      },
-      {
-        'title': 'Push Notifications',
-        'isSwitch': false,
-      },
-      {
-        'title': 'Deactivate Account',
+        'title': 'Desactivar cuenta',
         'isSwitch': false,
       },
     ],
   },
   {
-    'title': 'Support',
+    'title': 'Soporte',
     'categories': [
       {
-        'title': 'About Us',
+        'title': 'Sobre nosotros',
         'isSwitch': false,
       },
       {
-        'title': 'Help and Support',
+        'title': 'Ayuda',
         'isSwitch': false,
       },
       {
-        'title': 'Terms and Conditions',
+        'title': 'Terminos y condiciones',
         'isSwitch': false,
       },
       {
-        'title': 'Privacy Policy',
+        'title': 'Politica de privacidad',
         'isSwitch': false,
       },
     ],

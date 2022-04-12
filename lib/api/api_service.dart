@@ -7,7 +7,10 @@ class CallApi{
     
     postData(data, apiUrl) async {
       try{
-        var token = await _getToken(); 
+        //var token = await _getToken(); 
+        /*var headers = _setHeaders();
+        
+        print(token + "ELTOKEN");*/
         var fullUrl = _url + apiUrl;
         return await http.post(
             Uri.parse(fullUrl), 
@@ -27,10 +30,12 @@ class CallApi{
        );
     }
 
-    _setHeaders() => {
+    _setHeaders() {
+      return {
         'Content-type' : 'application/json',
         'Accept' : 'application/json',
-    };
+      };
+    }
 
     _getToken() async {
         SharedPreferences localStorage = await SharedPreferences.getInstance();

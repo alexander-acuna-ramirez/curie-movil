@@ -43,7 +43,7 @@ class CustomTitle extends StatelessWidget {
                   // );
                 },
                 child: Text(
-                  'See More',
+                  'Ver más',
                   style: TextStyle(
                       color: primary,
                       fontSize: 15.0,

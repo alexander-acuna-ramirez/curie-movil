@@ -9,6 +9,7 @@ import 'package:e_learnig_clone/widgets/custom_title.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class AccountPage extends StatefulWidget {
   const AccountPage({Key? key}) : super(key: key);
@@ -111,12 +112,12 @@ class _AccountPageState extends State<AccountPage> {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               CustomHeading(
-                title: 'Account',
-                subTitle: 'Student',
+                title: 'Cuenta',
+                subTitle: 'Participante',
                 color: secondary,
               ),
               Text(
-                'Become an Instructor?',
+                'Deseas postear tus propios retos?',
                 style: TextStyle(color: primary, fontSize: 15.0),
               ),
             ],
@@ -148,7 +149,7 @@ class _AccountPageState extends State<AccountPage> {
           GestureDetector(
             onTap: () {},
             child: Text(
-              'Edit Profile',
+              'Editar Perfil',
               style: TextStyle(
                 fontSize: 15,
                 color: primary,
@@ -199,7 +200,7 @@ class _AccountPageState extends State<AccountPage> {
           Container(
             alignment: Alignment.center,
             child: Text(
-              'V1.0.1',
+              'V0.0.1',
               style:
                   TextStyle(fontSize: 12.0, color: secondary.withOpacity(.5)),
             ),
@@ -212,10 +213,10 @@ class _AccountPageState extends State<AccountPage> {
 
   Widget getPopup() {
     return CupertinoActionSheet(
-      title: const Text('Are you sure you want to sign out?'),
+      title: const Text('¿Estas seguro de que quieres salir?'),
       cancelButton: CupertinoActionSheetAction(
         child: Text(
-          'Cancel',
+          'Cancelar',
         ),
         onPressed: () {
           Navigator.pop(context);
@@ -224,7 +225,7 @@ class _AccountPageState extends State<AccountPage> {
       actions: <CupertinoActionSheetAction>[
         CupertinoActionSheetAction(
           onPressed: () {
-          
+            print("Loged out");
           },
           child: const Text(
             'Sign Out',

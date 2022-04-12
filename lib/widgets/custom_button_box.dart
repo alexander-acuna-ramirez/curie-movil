@@ -17,7 +17,7 @@ class CustomButtonBox extends StatelessWidget {
       height: 45.0,
       alignment: Alignment.center,
       decoration: BoxDecoration(
-        color: primary.withOpacity(0.7),
+        color: Color.fromRGBO(100, 70, 215,1).withOpacity(0.7),
         borderRadius: BorderRadius.circular(17.5),
         boxShadow: [
           BoxShadow(
